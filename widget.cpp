@@ -18,10 +18,10 @@ Widget::Widget(QWidget *parent) :
     ui->setupUi(this);
 
     /*设置主界面背景*/
-    QPixmap pixmap(":/images/background.jpg");
-    QPalette palette;
-    palette.setBrush(backgroundRole(), QBrush(pixmap));
-    setPalette(palette);
+//    QPixmap pixmap(":/images/background.jpg");
+//    QPalette palette;
+//    palette.setBrush(backgroundRole(), QBrush(pixmap));
+//    setPalette(palette);
 
     //创建mediaPlayer
     mediaPlayer = new QMediaPlayer(this);
